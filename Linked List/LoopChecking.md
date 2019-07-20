@@ -4,7 +4,7 @@
 4. Move SlowPointer and FastPointer at a rate of one step. Return the new collision point.
 
 When SlowRunner enters the looped portion after k steps, FastRunner has taken 2k steps total and must be 2k - k steps, or k steps, into the looped portion. Since k might be much larger than the loop length, we should actually write this as mod ( k, LOOP _SIZE) steps, which we will denote as K.
-![](C:\Users\Rahul\Pictures\IMG_20190720_171422.jpg)
+![](IMG_20190720_171422.jpg)
 
 
 ```c++
